@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+a {
+    color: #ffffff;
+}
+
+#info {
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    padding: 5px;
+    font-family: Monospace;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+#menu {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    color: rgba(127,255,255,0.75);
+    background: transparent;
+    outline: 1px solid rgba(127,255,255,0.75);
+    border: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(0,255,255,0.5);
+}
+button:active {
+    color: #000000;
+    background-color: rgba(0,255,255,0.75);
+}
+
+
+#card {
+    width: 330px;
+    height: 508px;
+    max-width: 330px;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+}
+
+h2 {
+    padding: 20px;
+    margin: 0px;
+    color: white;
+    background: #3E4FB2;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.detail {
+    color: #777;
+    padding: 20px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-wrapper {
+    padding: 0;
+    position: relative;
+}
+
+.img-wrapper:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(62, 79, 178, .25);
+    width: 100%;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+
+
+
